@@ -1,0 +1,21 @@
+{
+    "name": "daniloyuudi/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Danilo",
+            "email": "dnl496@outlook.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    }
+}
