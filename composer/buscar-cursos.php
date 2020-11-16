@@ -2,6 +2,9 @@
 
 require "vendor/autoload.php";
 
+//Teste::metodo();
+//exit();
+
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 use Alura\BuscadorDeCursos\Buscador;
@@ -13,5 +16,5 @@ $buscador = new Buscador($client, $crawler);
 $cursos = $buscador->buscar('/cursos-online-programacao/php');
 
 foreach ($cursos as $curso) {
-    echo $curso . PHP_EOL;
+    echo exibeMensagem($curso);
 }
