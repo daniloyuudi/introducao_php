@@ -1,4 +1,4 @@
-#!/usr/bin/env php
+<!-- #!/usr/bin/env php -->
 
 <?php
 
@@ -17,6 +17,13 @@ $crawler = new Crawler();
 $buscador = new Buscador($client, $crawler);
 $cursos = $buscador->buscar('/cursos-online-programacao/php');
 
-foreach ($cursos as $curso) {
-    exibeMensagem($curso);
-}
+?>
+
+<table>
+
+<?php foreach ($cursos as $curso) { ?>
+    <?php //exibeMensagem($curso); ?>
+    <tr><td><?php exibeMensagem($curso); ?></td></tr>
+<?php } ?>
+
+</table>
