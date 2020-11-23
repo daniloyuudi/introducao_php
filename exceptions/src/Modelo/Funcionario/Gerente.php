@@ -15,4 +15,9 @@ class Gerente extends Funcionario implements Autenticavel
     {
         return $senha === '4321';
     }
+
+    public function recuperaCargo(): string
+    {
+        return "Gerente";
+    }
 }

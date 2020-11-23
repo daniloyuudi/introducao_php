@@ -62,4 +62,6 @@ abstract class Conta
     }
 
     abstract protected function percentualTarifa(): float;
+
+    abstract protected function recuperaTipoConta(): string;
 }

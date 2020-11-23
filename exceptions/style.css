@@ -1,0 +1,60 @@
+header {
+    height: 120px;
+    background-color: lightblue;
+    padding: 25px 25px;
+}
+
+table {
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    #div-tabela {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+th, td {
+    padding: 8px 5px 8px 5px;
+    width: 25%;
+}
+
+th {
+    text-align: left;
+    background-color: grey;
+}
+
+#section-lista {
+    padding: 25px 5px;
+}
+
+#section-form {
+    background-color: lightgrey;
+    padding: 20px 20px;
+}
+
+#div-erros {
+    color: red;
+    margin: 10px 20px;
+}
+
+.campo {
+    display: inline-block;
+    width: 350px;
+    margin: 15px 8px;
+}
+
+input, select {
+    width: 100%;
+}
+
+#adicionar {
+    width: 350px;
+    margin: 25px 15px;
+}
+
+footer {
+    height: 120px;
+    margin: 25px 25px;
+}

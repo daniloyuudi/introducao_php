@@ -13,4 +13,9 @@ class Desenvolvedor extends Funcionario
     {
         return 500.0;
     }
+
+    public function recuperaCargo(): string
+    {
+        return "Desenvolvedor";
+    }
 }

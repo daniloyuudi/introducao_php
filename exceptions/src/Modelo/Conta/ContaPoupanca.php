@@ -8,4 +8,9 @@ class ContaPoupanca extends Conta
     {
         return 0.03;
     }
+
+    public function recuperaTipoConta(): string
+    {
+        return "Conta Poupança";
+    }
 }

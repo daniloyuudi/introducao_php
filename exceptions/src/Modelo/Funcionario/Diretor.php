@@ -15,4 +15,9 @@ class Diretor extends Funcionario implements Autenticavel
     {
         return $senha === '1234';
     }
+
+    public function recuperaCargo(): string
+    {
+        return "Diretor";
+    }
 }

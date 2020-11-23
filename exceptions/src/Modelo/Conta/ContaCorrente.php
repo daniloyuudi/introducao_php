@@ -19,4 +19,9 @@ class ContaCorrente extends Conta
         $this->sacar($valorATransferir);
         $contaDestino->depositar($valorATransferir);
     }
+
+    public function recuperaTipoConta(): string
+    {
+        return "Conta Corrente";
+    }
 }

@@ -8,4 +8,9 @@ class EditorVideo extends Funcionario
     {
         return 600;
     }
+
+    public function recuperaCargo(): string
+    {
+        return "Editor de Vídeo";
+    }
 }
