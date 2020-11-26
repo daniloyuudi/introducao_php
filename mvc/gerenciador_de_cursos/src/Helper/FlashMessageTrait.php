@@ -2,7 +2,7 @@
 
 namespace Alura\Cursos\Helper;
 
-class FlashMessageTrait
+trait FlashMessageTrait
 {
     public function defineMensagem(string $tipo, string $mensagem): void
     {
