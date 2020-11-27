@@ -12,10 +12,10 @@ $funcionario = new Funcionario('Giovanni', 100);
 
 $alura->adicionarFuncionario($funcionario);
 
-echo $funcionario->salario;
-
-$funcionario->salario = 500;
+echo $funcionario->getSalario();
+echo "<br>";
 
 $alura->promoveFuncionario($funcionario, 50);
 
-echo $funcionario->salario;
+echo $funcionario->getSalario();
+echo "<br>";

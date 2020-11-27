@@ -16,8 +16,8 @@ class Empresa
     public function promoveFuncionario(Funcionario $possivelFuncionario, float $aumento)
     {
         foreach ($this->funcionarios as $funcionario) {
-            if ($funcionario->nome === $possivelFuncionario->nome) {
-                $funcionario->salario += $aumento;
+            if ($funcionario->getNome() === $possivelFuncionario->getNome()) {
+                $funcionario->aumentaSalario($aumento);
             }
         }
     }
