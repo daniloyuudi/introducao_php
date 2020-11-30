@@ -1,0 +1,110 @@
+version: 1
+creator: xdebug 3.0.0 (PHP 7.4.12)
+cmd: /home/webjump-196/Área de Trabalho/webgrind-master/index.php
+part: 1
+positions: line
+
+events: Time_(10ns) Memory_(bytes)
+
+fl=(1) php:internal
+fn=(1) php::realpath
+9 491 0
+
+fl=(1)
+fn=(2) php::is_file
+9 141 0
+
+fl=(2) /home/webjump-196/Área de Trabalho/webgrind-master/config.php
+fn=(3) require::/home/webjump-196/Área de Trabalho/webgrind-master/config.php
+1 106 0
+
+fl=(3) /home/webjump-196/Área de Trabalho/webgrind-master/library/Reader.php
+fn=(4) require::/home/webjump-196/Área de Trabalho/webgrind-master/library/Reader.php
+1 47 0
+
+fl=(4) /home/webjump-196/Área de Trabalho/webgrind-master/library/Preprocessor.php
+fn=(5) require::/home/webjump-196/Área de Trabalho/webgrind-master/library/Preprocessor.php
+1 13 0
+
+fl=(5) /home/webjump-196/Área de Trabalho/webgrind-master/library/FileHandler.php
+fn=(6) require::/home/webjump-196/Área de Trabalho/webgrind-master/library/FileHandler.php
+1 625 0
+cfl=(3)
+cfn=(4)
+calls=1 0 0
+2 47 0
+cfl=(4)
+cfn=(5)
+calls=1 0 0
+3 13 0
+
+fl=(1)
+fn=(7) php::set_time_limit
+25 341 408
+
+fl=(1)
+fn=(8) php::ini_get
+28 68 0
+
+fl=(1)
+fn=(9) php::date_default_timezone_set
+29 298 24
+
+fl=(6) /home/webjump-196/Área de Trabalho/webgrind-master/index.php
+fn=(10) get
+228 93 0
+
+fl=(1)
+fn=(11) php::file_get_contents
+184 9159179 5480
+
+fl=(1)
+fn=(12) php::header
+186 374 96
+
+fl=(6)
+fn=(13) {main}
+1 5986 1936
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+9 491 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+9 141 0
+cfl=(2)
+cfn=(3)
+calls=1 0 0
+19 106 0
+cfl=(5)
+cfn=(6)
+calls=1 0 0
+20 684 0
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+25 341 408
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+28 68 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+29 298 24
+cfl=(6)
+cfn=(10)
+calls=1 0 0
+32 93 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+184 9159179 5480
+cfl=(1)
+cfn=(12)
+calls=1 0 0
+186 374 96
+
+summary: 9182426 386624
+

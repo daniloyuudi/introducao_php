@@ -1,0 +1,734 @@
+version: 1
+creator: xdebug 3.0.0 (PHP 7.4.12)
+cmd: /home/webjump-196/Área de Trabalho/projeto-php/xdebug/atualiza_leilao.php
+part: 1
+positions: line
+
+events: Time_(10ns) Memory_(bytes)
+
+fl=(2) /home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/composer/autoload_real.php
+fn=(1) require_once::/home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/composer/autoload_real.php
+1 285 0
+
+fl=(3) /home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/composer/platform_check.php
+fn=(2) require::/home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/composer/platform_check.php
+1 215 0
+
+fl=(1) php:internal
+fn=(3) php::spl_autoload_register
+27 642 520
+
+fl=(4) /home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/composer/ClassLoader.php
+fn=(4) require::/home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/composer/ClassLoader.php
+1 156 0
+
+fl=(2)
+fn=(5) ComposerAutoloaderInit63f268026849874e0eb6889e56247db7::loadClassLoader
+9 97384 488
+cfl=(4)
+cfn=(4)
+calls=1 0 0
+12 156 0
+
+fl=(1)
+fn=(6) php::spl_autoload_call
+28 839 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+28 97540 488
+
+fl=(1)
+fn=(7) php::spl_autoload_unregister
+29 183 0
+
+fl=(1)
+fn=(8) php::function_exists
+31 30 0
+
+fl=(5) /home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/composer/autoload_static.php
+fn=(9) require::/home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/composer/autoload_static.php
+1 126 0
+
+fl=(1)
+fn=(10) php::Closure::bind
+665 186 856
+
+fl=(5)
+fn=(11) Composer\Autoload\ComposerStaticInit63f268026849874e0eb6889e56247db7::getInitializer
+658 485 0
+cfl=(1)
+cfn=(10)
+calls=1 0 0
+665 186 856
+
+fl=(5)
+fn=(12) Composer\Autoload\ClassLoader::Composer\Autoload\{closure:/home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/composer/autoload_static.php:660-665}
+660 238 0
+
+fl=(1)
+fn=(3)
+302 178 128
+
+fl=(4)
+fn=(13) Composer\Autoload\ClassLoader->register
+300 313 0
+cfl=(1)
+cfn=(3)
+calls=1 0 0
+302 178 128
+
+fl=(1)
+fn=(8)
+14 85 0
+
+fl=(1)
+fn=(8)
+17 24 0
+
+fl=(1)
+fn=(8)
+20 39 0
+
+fl=(1)
+fn=(8)
+23 22 0
+
+fl=(1)
+fn=(8)
+26 21 0
+
+fl=(1)
+fn=(8)
+29 14 0
+
+fl=(1)
+fn=(8)
+32 14 0
+
+fl=(1)
+fn=(8)
+35 13 0
+
+fl=(1)
+fn=(8)
+38 14 0
+
+fl=(1)
+fn=(8)
+41 13 0
+
+fl=(1)
+fn=(8)
+44 17 0
+
+fl=(6) /home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/symfony/polyfill-ctype/bootstrap.php
+fn=(14) require::/home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/symfony/polyfill-ctype/bootstrap.php
+1 844 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+14 85 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+17 24 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+20 39 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+23 22 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+26 21 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+29 14 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+32 14 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+35 13 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+38 14 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+41 13 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+44 17 0
+
+fl=(2)
+fn=(15) composerRequire63f268026849874e0eb6889e56247db7
+68 18340 504
+cfl=(6)
+cfn=(14)
+calls=1 0 0
+71 1121 0
+
+fl=(1)
+fn=(8)
+7 50 0
+
+fl=(7) /home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/myclabs/deep-copy/src/DeepCopy/deep_copy.php
+fn=(16) require::/home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/myclabs/deep-copy/src/DeepCopy/deep_copy.php
+1 275 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+7 50 0
+
+fl=(2)
+fn=(15)
+68 8949 160
+cfl=(7)
+cfn=(16)
+calls=1 0 0
+71 324 0
+
+fl=(2)
+fn=(17) ComposerAutoloaderInit63f268026849874e0eb6889e56247db7::getLoader
+19 114214 1568
+cfl=(3)
+cfn=(2)
+calls=1 0 0
+25 215 0
+cfl=(1)
+cfn=(3)
+calls=1 0 0
+27 642 520
+cfl=(1)
+cfn=(6)
+calls=1 0 0
+28 98378 488
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+29 183 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+31 30 0
+cfl=(5)
+cfn=(9)
+calls=1 0 0
+33 126 0
+cfl=(5)
+cfn=(11)
+calls=1 0 0
+35 670 856
+cfl=(5)
+cfn=(12)
+calls=1 0 0
+35 238 0
+cfl=(4)
+cfn=(13)
+calls=1 0 0
+53 490 128
+cfl=(2)
+cfn=(15)
+calls=1 0 0
+61 19461 504
+cfl=(2)
+cfn=(15)
+calls=1 0 0
+61 9273 160
+
+fl=(8) /home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/autoload.php
+fn=(18) require_once::/home/webjump-196/Área de Trabalho/projeto-php/xdebug/vendor/autoload.php
+1 26054 864
+cfl=(2)
+cfn=(1)
+calls=1 0 0
+5 285 0
+cfl=(2)
+cfn=(17)
+calls=1 0 0
+7 243921 3288
+
+fl=(1)
+fn=(19) php::PDO->__construct
+8 7162 64
+
+fl=(1)
+fn=(20) php::PDO->exec
+9 17268 0
+
+fl=(1)
+fn=(21) php::strtr
+373 81 56
+
+fl=(1)
+fn=(22) php::strrpos
+378 38 0
+
+fl=(1)
+fn=(23) php::substr
+379 28 48
+
+fl=(1)
+fn=(22)
+378 17 0
+
+fl=(1)
+fn=(23)
+379 13 40
+
+fl=(1)
+fn=(23)
+382 10 48
+
+fl=(1)
+fn=(24) php::file_exists
+384 740 0
+
+fl=(4)
+fn=(25) Composer\Autoload\ClassLoader->findFileWithExtension
+370 4454 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+373 81 56
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+378 38 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+379 28 48
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+378 17 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+379 13 40
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+382 10 48
+cfl=(1)
+cfn=(24)
+calls=1 0 0
+384 740 0
+
+fl=(4)
+fn=(26) Composer\Autoload\ClassLoader->findFile
+335 1766 0
+cfl=(4)
+cfn=(25)
+calls=1 0 0
+351 5381 128
+
+fl=(9) /home/webjump-196/Área de Trabalho/projeto-php/xdebug/src/Model/Leilao.php
+fn=(27) include::/home/webjump-196/Área de Trabalho/projeto-php/xdebug/src/Model/Leilao.php
+1 90 0
+
+fl=(4)
+fn=(28) Composer\Autoload\includeFile
+442 26484 752
+cfl=(9)
+cfn=(27)
+calls=1 0 0
+444 90 0
+
+fl=(4)
+fn=(29) Composer\Autoload\ClassLoader->loadClass
+319 1250 0
+cfl=(4)
+cfn=(26)
+calls=1 0 0
+321 7147 128
+cfl=(4)
+cfn=(28)
+calls=1 0 0
+322 26574 752
+
+fl=(1)
+fn=(6)
+16 705 0
+cfl=(4)
+cfn=(29)
+calls=1 0 0
+16 34971 752
+
+fl=(1)
+fn=(30) php::DateTimeImmutable->__construct
+23 324046 1896
+
+fl=(9)
+fn=(31) Alura\Leilao\Model\Leilao->__construct
+18 3138 48
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+23 324046 1896
+
+fl=(1)
+fn=(21)
+373 147 48
+
+fl=(1)
+fn=(22)
+378 56 0
+
+fl=(1)
+fn=(23)
+379 41 48
+
+fl=(1)
+fn=(22)
+378 16 0
+
+fl=(1)
+fn=(23)
+379 13 40
+
+fl=(1)
+fn=(23)
+382 34 40
+
+fl=(1)
+fn=(24)
+384 1838 0
+
+fl=(4)
+fn=(25)
+370 2359 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+373 147 48
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+378 56 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+379 41 48
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+378 16 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+379 13 40
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+382 34 40
+cfl=(1)
+cfn=(24)
+calls=1 0 0
+384 1838 0
+
+fl=(4)
+fn=(26)
+335 3791 0
+cfl=(4)
+cfn=(25)
+calls=1 0 0
+351 4503 128
+
+fl=(10) /home/webjump-196/Área de Trabalho/projeto-php/xdebug/src/Dao/Leilao.php
+fn=(32) include::/home/webjump-196/Área de Trabalho/projeto-php/xdebug/src/Dao/Leilao.php
+1 202 0
+
+fl=(4)
+fn=(28)
+442 60995 112
+cfl=(10)
+cfn=(32)
+calls=1 0 0
+444 202 0
+
+fl=(4)
+fn=(29)
+319 1707 0
+cfl=(4)
+cfn=(26)
+calls=1 0 0
+321 8294 128
+cfl=(4)
+cfn=(28)
+calls=1 0 0
+322 61198 112
+
+fl=(1)
+fn=(6)
+18 1743 0
+cfl=(4)
+cfn=(29)
+calls=1 0 0
+18 71198 112
+
+fl=(10)
+fn=(33) Alura\Leilao\Dao\Leilao->__construct
+11 192 0
+
+fl=(1)
+fn=(34) php::PDO->prepare
+19 4970 600
+
+fl=(9)
+fn=(35) Alura\Leilao\Model\Leilao->recuperarDescricao
+56 142 0
+
+fl=(1)
+fn=(36) php::PDOStatement->bindValue
+20 441 776
+
+fl=(9)
+fn=(37) Alura\Leilao\Model\Leilao->estaFinalizado
+61 38 0
+
+fl=(1)
+fn=(36)
+21 57 80
+
+fl=(9)
+fn=(38) Alura\Leilao\Model\Leilao->recuperarDataInicio
+66 138 0
+
+fl=(1)
+fn=(39) php::DateTimeImmutable->format
+22 392 256
+
+fl=(1)
+fn=(36)
+22 52 80
+
+fl=(1)
+fn=(40) php::PDOStatement->execute
+23 2494 8
+
+fl=(9)
+fn=(35)
+56 39 0
+
+fl=(9)
+fn=(38)
+66 12 0
+
+fl=(1)
+fn=(41) php::PDO->lastInsertId
+28 168 32
+
+fl=(9)
+fn=(31)
+18 242 0
+
+fl=(10)
+fn=(42) Alura\Leilao\Dao\Leilao->salva
+16 4779 0
+cfl=(1)
+cfn=(34)
+calls=1 0 0
+19 4970 600
+cfl=(9)
+cfn=(35)
+calls=1 0 0
+20 142 0
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+20 441 776
+cfl=(9)
+cfn=(37)
+calls=1 0 0
+21 38 0
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+21 57 80
+cfl=(9)
+cfn=(38)
+calls=1 0 0
+22 138 0
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+22 392 256
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+22 52 80
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+23 2494 8
+cfl=(9)
+cfn=(35)
+calls=1 0 0
+26 39 0
+cfl=(9)
+cfn=(38)
+calls=1 0 0
+27 12 0
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+28 168 32
+cfl=(9)
+cfn=(31)
+calls=1 0 0
+28 242 0
+
+fl=(9)
+fn=(43) Alura\Leilao\Model\Leilao->finaliza
+43 35 0
+
+fl=(1)
+fn=(34)
+71 2237 680
+
+fl=(9)
+fn=(35)
+56 27 0
+
+fl=(1)
+fn=(36)
+72 227 816
+
+fl=(9)
+fn=(38)
+66 18 0
+
+fl=(1)
+fn=(39)
+73 167 256
+
+fl=(1)
+fn=(36)
+73 46 120
+
+fl=(9)
+fn=(37)
+61 20 0
+
+fl=(1)
+fn=(36)
+74 33 120
+
+fl=(9)
+fn=(44) Alura\Leilao\Model\Leilao->recuperarId
+79 28 0
+
+fl=(1)
+fn=(36)
+75 34 112
+
+fl=(1)
+fn=(40)
+76 817 8
+
+fl=(10)
+fn=(45) Alura\Leilao\Dao\Leilao->atualiza
+68 1633 0
+cfl=(1)
+cfn=(34)
+calls=1 0 0
+71 2237 680
+cfl=(9)
+cfn=(35)
+calls=1 0 0
+72 27 0
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+72 227 816
+cfl=(9)
+cfn=(38)
+calls=1 0 0
+73 18 0
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+73 167 256
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+73 46 120
+cfl=(9)
+cfn=(37)
+calls=1 0 0
+74 20 0
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+74 33 120
+cfl=(9)
+cfn=(44)
+calls=1 0 0
+75 28 0
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+75 34 112
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+76 817 8
+
+fl=(11) /home/webjump-196/Área de Trabalho/projeto-php/xdebug/atualiza_leilao.php
+fn=(46) {main}
+1 15119 464
+cfl=(8)
+cfn=(18)
+calls=1 0 0
+6 270260 4152
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+8 7162 64
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+9 17268 0
+cfl=(1)
+cfn=(6)
+calls=1 0 0
+16 35676 752
+cfl=(9)
+cfn=(31)
+calls=1 0 0
+16 327184 1944
+cfl=(1)
+cfn=(6)
+calls=1 0 0
+18 72942 112
+cfl=(10)
+cfn=(33)
+calls=1 0 0
+18 192 0
+cfl=(10)
+cfn=(42)
+calls=1 0 0
+19 13964 128
+cfl=(9)
+cfn=(43)
+calls=1 0 0
+21 35 0
+cfl=(10)
+cfn=(45)
+calls=1 0 0
+22 5284 0
+
+summary: 783581 791024
+
