@@ -15,7 +15,7 @@ class CalculadoraDeSalario
 
     public function aplicaDescontos()
     {
-        return $this->salario - $this->salario * 0.08 - $this->salario * 0.075;
-        //return $this->salario - $this->salario * self::INSS - $this->salario * self::IR;
+        //return $this->salario - $this->salario * 0.08 - $this->salario * 0.075;
+        return $this->salario - $this->salario * self::INSS - $this->salario * self::IR;
     }
 }
