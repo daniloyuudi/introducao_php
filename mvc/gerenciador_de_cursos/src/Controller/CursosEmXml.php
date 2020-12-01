@@ -7,6 +7,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 use Nyholm\Psr7\Response;
+use Alura\Cursos\Entity\Curso;
 
 class CursosEmXml implements RequestHandlerInterface
 {

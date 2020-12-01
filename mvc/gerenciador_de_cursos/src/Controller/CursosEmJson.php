@@ -7,6 +7,7 @@ use Nyholm\Psr7\Response;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
+use Alura\Cursos\Entity\Curso;
 
 class CursosEmJson implements RequestHandlerInterface
 {
@@ -24,6 +25,6 @@ class CursosEmJson implements RequestHandlerInterface
         return new Response(200,
             ['Content-Type' => 'application/json'],
             json_encode($cursos)
-        ); 
+        );
     }
 }

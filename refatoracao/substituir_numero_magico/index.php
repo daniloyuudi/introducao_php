@@ -8,4 +8,4 @@ $calculadoraDeSalario = new CalculadoraDeSalario('1000');
 
 $salarioComDescontos = $calculadoraDeSalario->aplicaDescontos();
 
-echo $salarioComDescontos;
+echo "O salário com desconto é: R$ " . number_format($salarioComDescontos, 2, ",", ".") . PHP_EOL;
