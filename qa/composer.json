@@ -1,0 +1,19 @@
+{
+    "name": "danilo/testes",
+    "description": "Testes da sprint 10.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Danilo Yuudi",
+            "email": "dnl496@outlook.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
