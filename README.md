@@ -11,3 +11,4 @@
 * PHP Refatoração: Boas práticas no seu código
 * PHP Xdebug: Ferramenta de debug e profiling
 * PHP e TDD: Testes com PHPUnit
+* Projeto de QA
