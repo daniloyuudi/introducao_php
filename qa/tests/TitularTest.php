@@ -11,7 +11,7 @@ class TitularTest extends TestCase
      * @uses CPF::__construct()
      * @uses Titular::validaNomeTitular()
      */
-    public function testRecusaTitularComNomeInvalido($cpf)
+    public function testNaoDeveAceitarNomeDeTitularComMenosDe6Caracteres($cpf)
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage("Nome precisa ter pelo menos 5 caracteres");
@@ -27,7 +27,7 @@ class TitularTest extends TestCase
      * @covers CPF::recuperaNumero()
      * @covers Titular::validaNomeTitular()
      */
-    public function testCriaTitularComNomeValido($cpf)
+    public function testDeveInicializarTitularERetornarCamposCorretamente($cpf)
     {
         $titular = new Titular($cpf, "João da Silva Sauro");
 

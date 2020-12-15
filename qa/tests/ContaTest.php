@@ -15,7 +15,7 @@ class ContaTest extends TestCase
      * @covers Titular::recuperaNome
      * @uses Conta::__destruct
      */
-    public function testCriaConta(Titular $titular)
+    public function testDeveInicializarContaComSaldoZero(Titular $titular)
     {
         $conta = new Conta($titular);
 
@@ -24,13 +24,29 @@ class ContaTest extends TestCase
         static::assertEquals(0, $conta->recuperaSaldo());
     }
 
+    /**
+     * @dataProvider geraTitular
+     * @covers Conta::__construct
+     * @covers Conta::__destruct
+     * @covers Conta::recuperaNumeroDeContas
+     */
+    public function testDeveRetornarNumeroCorretoDeContas(Titular $titular)
+    {
+        $conta = new Conta($titular);
+
+        static::assertEquals(9, Conta::recuperaNumeroDeContas());
+
+        $conta = null;
+
+        static::assertEquals(8, Conta::recuperaNumeroDeContas());
+    }
 
     /**
      * @dataProvider geraContaVazia
      * @covers Conta::deposita
      * @covers Conta::recuperaSaldo
      */
-    public function testDepositoValido($conta)
+    public function testDeveAceitarDepositoComValorPositivo($conta)
     {
         $conta->deposita(150);
 
@@ -41,7 +57,7 @@ class ContaTest extends TestCase
      * @dataProvider geraContaVazia
      * @covers Conta::deposita
      */
-    public function testDepositoInvalido($conta)
+    public function testNaoDeveAceitarDepositoComValorNegativo($conta)
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage("Valor precisa ser positivo");
@@ -54,7 +70,7 @@ class ContaTest extends TestCase
      * @covers Conta::saca
      * @covers Conta::recuperaSaldo
      */
-    public function testSaqueValido($conta)
+    public function testDeveAceitarSaqueComSaldoSuficiente($conta)
     {
         $conta->saca(200);
 
@@ -65,7 +81,7 @@ class ContaTest extends TestCase
      * @dataProvider geraContaVazia
      * @covers Conta::saca
      */
-    public function testSacaComSaldoIndisponivel($conta)
+    public function testNaoDeveAceitarSaqueComSaldoInsuficiente($conta)
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage("Saldo indisponível");
@@ -80,7 +96,7 @@ class ContaTest extends TestCase
      * @covers Conta::saca
      * @covers Conta::deposita
      */
-    public function testTransfereComSaldo(Conta $conta1, Conta $conta2)
+    public function testDeveAceitarTransferenciaComSaldoSuficiente(Conta $conta1, Conta $conta2)
     {
         $conta1->transfere(200, $conta2);
 
@@ -92,7 +108,7 @@ class ContaTest extends TestCase
      * @dataProvider geraContasTransferenciaSemSaldo
      * @covers Conta::transfere
      */
-    public function testTransfereSemSaldo($conta1, $conta2)
+    public function testNaoDeveAceitarTransferenciaComSaldoInsuficiente($conta1, $conta2)
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage("Saldo indisponível");

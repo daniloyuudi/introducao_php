@@ -8,7 +8,7 @@ class CPFTest extends TestCase
      * @covers CPF::__construct()
      * @covers CPF::recuperaNumero()
      */
-    public function testCriaCpfValido()
+    public function testDeveInicializarCpfERetornarValor()
     {
         $cpf = new CPF("606.678.213-23");
 
@@ -18,7 +18,7 @@ class CPFTest extends TestCase
     /**
      * @covers CPF::__construct()
      */
-    public function testRecusaCpfInvalido()
+    public function testNaoDeveCriarCpfComValorInvalido()
     {
         $this->expectException(\InvalidArgumentException::class);
         $this->expectExceptionMessage("Cpf inválido");
