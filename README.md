@@ -12,3 +12,4 @@
 * PHP Xdebug: Ferramenta de debug e profiling
 * PHP e TDD: Testes com PHPUnit
 * Projeto de QA
+* Iniciando o Desenvolvimento em Magento 2
