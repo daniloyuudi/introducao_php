@@ -1,10 +1,10 @@
 <?php
 
-namespace Mastering\SampleModule\Controller\Adminhtml\Index;
+namespace Mastering\SampleModule\Controller\Adminhtml\Item;
 
 use Magento\Framework\Controller\ResultFactory;
 
-class Index extends \Magento\Backend\App\Action
+class NewAction extends \Magento\Backend\App\Action
 {
     public function execute()
     {
