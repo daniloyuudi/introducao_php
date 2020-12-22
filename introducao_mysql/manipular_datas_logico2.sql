@@ -1,0 +1,38 @@
+use sucos;
+
+select * from TABELA_DE_VENDEDORES;
+
+drop table TABELA_DE_VENDEDORES;
+
+create table TABELA_DE_VENDEDORES (
+	MATRICULA char(5),
+    NOME varchar(100),
+    PERCENTUAL_COMISSAO double,
+    DATA_ADMISSAO date,
+    DE_FERIAS bit(1)
+);
+
+alter table TABELA_DE_VENDEDORES add primary key (MATRICULA);
+
+insert into TABELA_DE_VENDEDORES (
+	MATRICULA, NOME, PERCENTUAL_COMISSAO, DATA_ADMISSAO, DE_FERIAS)
+    VALUES (
+    '00235', 'Márcio Almeida Silva', 0.08, '2014-08-15', 0);
+
+insert into TABELA_DE_VENDEDORES (
+	MATRICULA, NOME, PERCENTUAL_COMISSAO, DATA_ADMISSAO, DE_FERIAS)
+    VALUES (
+    '00236', 'Cláudia Morais', 0.08, '2013-09-17', 1);
+
+insert into TABELA_DE_VENDEDORES (
+	MATRICULA, NOME, PERCENTUAL_COMISSAO, DATA_ADMISSAO, DE_FERIAS)
+    VALUES (
+    '00237', 'Roberta Martins', 0.11, '2017-03-18', 1);
+
+insert into TABELA_DE_VENDEDORES (
+MATRICULA, NOME, PERCENTUAL_COMISSAO, DATA_ADMISSAO, DE_FERIAS)
+VALUES (
+'00238', 'Péricles Alves', 0.11, '2016-08-21', 0);
+
+select * from TABELA_DE_VENDEDORES;
+    

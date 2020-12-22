@@ -1,0 +1,3 @@
+delete from TABELA_DE_VENDEDORES where MATRICULA = '00233';
+
+select * from TABELA_DE_VENDEDORES;

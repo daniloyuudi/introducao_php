@@ -1,5 +1,7 @@
 # Projeto PHP
 
+* Introdução ao SQL com MySQL: Manipule e consulte dados
+* Consultas SQL: Avançando no SQL com MySQL
 * Introdução ao PHP: Primeiros passos com a linguagem
 * PHP Composer: Dependências, Autoload e Publicação
 * Avançando com PHP: Arrays, Strings, Função e Web
@@ -13,3 +15,4 @@
 * PHP e TDD: Testes com PHPUnit
 * Projeto de QA
 * Iniciando o Desenvolvimento em Magento 2
+* Mastering Magento 2

@@ -1,0 +1,13 @@
+insert into TABELA_DE_VENDEDORES (
+	MATRICULA, NOME, PERCENTUAL_COMISSAO
+) VALUES (
+	00235, 'Márcio Almeida Silva', 0.08
+);
+
+insert into TABELA_DE_VENDEDORES (
+	MATRICULA, NOME, PERCENTUAL_COMISSAO
+) VALUES (
+	00236, 'Cláudia Morais', 0.08
+);
+
+select * from TABELA_DE_VENDEDORES;
